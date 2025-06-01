@@ -324,3 +324,29 @@ Let me know which product you're interested in.
 - **Voicemail Timeout:** 90 seconds
 - **User Interruptions:** Enabled
 
+.env
+```
+# Magento Configuration
+MAGENTO_BASE_URL="https://192.168.12.163"
+MAGENTO_USERNAME="john.smith"
+MAGENTO_PASSWORD="password123"
+
+# Verbex AI Agent Configuration
+AI_AGENT_ID="682f148ec6b9727e42c1a372"
+AUTH_TOKEN="API_Nxr_5kes6zBVOMCeiEWDFTa6rAse5it6svrIBlT-RyOtclTFBnbyAY14KCA-JWSO"
+
+# Database Configuration
+DB_URI="postgresql+psycopg2://verbex:verbex@192.168.12.163:5432/verbex_db"
+
+# Salesforce Configuration
+SALESFORCE_CLIENT_ID="3MVG9.Houp75EVdbwqt5rfrMsiH3_0T2IdNv0wd8fxZECS79qewpPuM4TUolQvO7rvVR6HBozl3Zx82LmypSK"
+SALESFORCE_CLIENT_SECRET="2B3BB8D5BF4A8C1C35B572EBC89193CDACA4E96B63E950E22780308016DB4815"
+SALESFORCE_USERNAME="polygon.verbexdemo-1yj4@force.com"
+SALESFORCE_PASSWORD="polygon1234#$"
+SALESFORCE_INSTANCE_URL="https://saas-computing-8662.my.salesforce.com"
+SALESFORCE_TOKEN_URL="https://login.salesforce.com/services/oauth2/token"
+
+# APScheduler
+SYNC_INTERVAL_MINUTES=1440
+```
+
