@@ -324,7 +324,7 @@ Let me know which product you're interested in.
 - **Voicemail Timeout:** 90 seconds
 - **User Interruptions:** Enabled
 
-.env
+**.env**
 ```
 # Magento Configuration
 MAGENTO_BASE_URL="https://192.168.12.163"
@@ -349,4 +349,11 @@ SALESFORCE_TOKEN_URL="https://login.salesforce.com/services/oauth2/token"
 # APScheduler
 SYNC_INTERVAL_MINUTES=1440
 ```
+**Login Credentials**
+- Gmail account used for verbex agent:
+email: polygon.verbexdemo@gmail.com
+pass: polygon1234#$
 
+- Salesforce:
+username: polygon.verbexdemo-1yj4@force.com
+pass: polygon1234#$
